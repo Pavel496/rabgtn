@@ -12,7 +12,7 @@ trait FilterByUser
     {
         if(! app()->runningInConsole()) {
             static::creating(function ($model) {
-                $model->created_by_id = Auth::getUser()->id;
+                $model->created_by_id = Auth::check() ? Auth::getUser()->id : null;
             });
 
             $currentUser = Auth::user();
@@ -20,7 +20,7 @@ trait FilterByUser
             $canSeeAllRecordsRoleId = config('app_service.can_see_all_records_role_id');
             $modelName = class_basename(self::class);
 
-            if (in_array($canSeeAllRecordsRoleId, $currentUser->role->pluck('id')->toArray())  && !is_null($canSeeAllRecordsRoleId)) {
+            if ($currentUser->role_id == $canSeeAllRecordsRoleId && !is_null($canSeeAllRecordsRoleId)) {
                 if (Session::get($modelName . '.filter', 'all') == 'my') {
                     Session::put($modelName . '.filter', 'my');
                     $addScope = true;

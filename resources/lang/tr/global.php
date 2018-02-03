@@ -247,5 +247,5 @@ return [
 	'app_parse_csv' => 'Yükle',
 	'app_import_data' => 'Veriyi İçeri Al',
 	'app_imported_rows_to_table' => ':rows sütunları :table tablosuna eklenmiştir',
-	'global_title' => 'Работа тел 1',
+	'global_title' => 'Работа Админ резерв clone',
 ];

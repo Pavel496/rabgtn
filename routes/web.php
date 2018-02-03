@@ -1,19 +1,5 @@
 <?php
-
-use Illuminate\Support\Facades\Route;
-
-
-
-Route::get('/', function () {
-    $vacancies = App\Vacancy::all();
-    return view('index', compact('vacancies')); })->name('index');
-
-Route::get('/resume_list', function () {
-    $users = App\User::all();
-    return view('resume-list', compact('users')); })->name('resume_list');
-
-Route::get("my-search","SearchController@mySearch");
-
+Route::get('/', function () { return redirect('/admin/home'); });
 
 // Authentication Routes...
 $this->get('login', 'Auth\LoginController@showLoginForm')->name('auth.login');
@@ -71,7 +57,8 @@ Route::group(['middleware' => ['auth', 'approved'], 'prefix' => 'admin', 'as' =>
     Route::post('phones_mass_destroy', ['uses' => 'Admin\PhonesController@massDestroy', 'as' => 'phones.mass_destroy']);
     Route::post('phones_restore/{id}', ['uses' => 'Admin\PhonesController@restore', 'as' => 'phones.restore']);
     Route::delete('phones_perma_del/{id}', ['uses' => 'Admin\PhonesController@perma_del', 'as' => 'phones.perma_del']);
-    Route::post('phones_myregistr/{id}', ['uses' => 'Admin\PhonesController@myregistr', 'as' => 'phones.myregistr']);
-    Route::get('phones_smscode/{id}', ['middleware' => 'GrahamCampbell\Throttle\Http\Middleware\ThrottleMiddleware:5,60','uses' => 'Admin\PhonesController@smscode', 'as' => 'phones.smscode']);
+
+
+
  
 });

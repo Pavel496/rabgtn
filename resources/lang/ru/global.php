@@ -244,5 +244,5 @@ return [
 	'app_csv_file_to_import' => 'CSV файл для импорта',
 	'app_parse_csv' => 'Спарсить CSV',
 	'app_import_data' => 'Импорт данных',
-	'global_title' => 'Работа тел 1',
+	'global_title' => 'Работа Админ резерв clone',
 ];

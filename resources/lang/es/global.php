@@ -244,5 +244,5 @@ return [
 	'app_copy_paste_url_bellow' => 'botón, copiar y pegar la siguiente URL en tu navegador',
 	'app_file_contains_header_row' => '¿El fichero contiene fila de encabezado?',
 	'app_stripe_transactions' => 'Transacciones con Stripe',
-	'global_title' => 'Работа тел 1',
+	'global_title' => 'Работа Админ резерв clone',
 ];

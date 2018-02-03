@@ -239,5 +239,5 @@ return [
 	'app_x_axis_group_by' => 'Ось-Х групувати по',
 	'app_x_axis_field' => 'Поле Осі-Х (дата/час)',
 	'app_y_axis_field' => 'Поле осі-Y',
-	'global_title' => 'Работа тел 1',
+	'global_title' => 'Работа Админ резерв clone',
 ];

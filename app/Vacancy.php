@@ -4,7 +4,6 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use App\Traits\FilterByUser;
-use Nicolaslopezj\Searchable\SearchableTrait;
 
 /**
  * Class Vacancy
@@ -24,22 +23,6 @@ use Nicolaslopezj\Searchable\SearchableTrait;
 class Vacancy extends Model
 {
     use SoftDeletes, FilterByUser;
-    use SearchableTrait;
-
-
-     /**
-     * Searchable rules.
-     *
-     * @var array
-     */
-    protected $searchable = [
-        'columns' => [
-            'vacancies.title' => 10,
-            //'users.email' => 5,
-            //'users.id' => 3,
-        ]
-    ];    
-    
 
     protected $fillable = ['title', 'text', 'wage', 'company_address', 'logotype', 'phone_temp', 'experience_id', 'lasting_id', 'phone_id', 'created_by_id'];
     

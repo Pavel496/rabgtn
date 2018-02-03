@@ -22,6 +22,7 @@ class User extends Authenticatable
     protected $fillable = ['name', 'email', 'password', 'remember_token', 'approved'];
     
     
+    
     /**
      * Hash password
      * @param $input
@@ -37,7 +38,6 @@ class User extends Authenticatable
     {
         return $this->belongsToMany(Role::class, 'role_user');
     }
-    
     
     
     

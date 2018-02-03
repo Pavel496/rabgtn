@@ -116,5 +116,5 @@ return [
 	'app_copy' => 'Kopijuoti',
 	'app_register' => 'Registruotis',
 	'app_registration' => 'Registracija',
-	'global_title' => 'Работа тел 1',
+	'global_title' => 'Работа Админ резерв clone',
 ];

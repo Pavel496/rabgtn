@@ -156,7 +156,7 @@
 
 @section('javascript')
     @parent
-    <script src="//cdn.ckeditor.com/4.5.4/basic/ckeditor.js"></script>
+    <script src="//cdn.ckeditor.com/4.5.4/full/ckeditor.js"></script>
     <script>
         $('.editor').each(function () {
                   CKEDITOR.replace($(this).attr('id'),{

@@ -26,5 +26,5 @@ return [
 	'app_back_to_list' => 'सूची पे वापस जाए',
 	'app_dashboard' => 'डॅशबोर्ड ',
 	'app_delete' => 'मिटाइए',
-	'global_title' => 'Работа тел 1',
+	'global_title' => 'Работа Админ резерв clone',
 ];

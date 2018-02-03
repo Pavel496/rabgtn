@@ -13,7 +13,7 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        \Spatie\ModelCleanup\CleanUpModelsCommand::class
+        //
     ];
 
     /**
@@ -24,9 +24,8 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-
-        $schedule->command('clean:models')->daily();
-        
+        // $schedule->command('inspire')
+        //          ->hourly();
     }
 
     /**

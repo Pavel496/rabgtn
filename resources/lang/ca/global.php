@@ -246,5 +246,5 @@ return [
 	'app_parse_csv' => 'Analitza CSV',
 	'app_import_data' => 'Importar dades',
 	'app_imported_rows_to_table' => 'Importades :row files a la taula :taula',
-	'global_title' => 'Работа тел 1',
+	'global_title' => 'Работа Админ резерв clone',
 ];

@@ -26,5 +26,5 @@ return [
 	'app_back_to_list' => 'Обратно към списъка',
 	'app_dashboard' => 'Табло',
 	'app_delete' => 'Изтрий',
-	'global_title' => 'Работа тел 1',
+	'global_title' => 'Работа Админ резерв clone',
 ];

@@ -247,5 +247,5 @@ return [
 	'app_parse_csv' => 'Lese CSV',
 	'app_import_data' => 'Daten importieren',
 	'app_imported_rows_to_table' => ':rows Zeilen in Tabelle :table importiert',
-	'global_title' => 'Работа тел 1',
+	'global_title' => 'Работа Админ резерв clone',
 ];

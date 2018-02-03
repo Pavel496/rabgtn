@@ -238,5 +238,5 @@ return [
 	'app_when_crud' => 'wanneer CRUD',
 	'app_create_new_notification' => 'Maak een nieuwe verwittiging aan',
 	'app_stripe_transactions' => 'Stripe transacties',
-	'global_title' => 'Работа тел 1',
+	'global_title' => 'Работа Админ резерв clone',
 ];

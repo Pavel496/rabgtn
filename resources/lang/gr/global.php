@@ -26,5 +26,5 @@ return [
 	'app_back_to_list' => 'Επιστροφή στην λίστα',
 	'app_dashboard' => 'Dashboard',
 	'app_delete' => 'Διαγραφή',
-	'global_title' => 'Работа тел 1',
+	'global_title' => 'Работа Админ резерв clone',
 ];

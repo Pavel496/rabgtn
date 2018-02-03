@@ -247,5 +247,5 @@ return [
 	'app_not_approved_p' => 'Kontoen din er fortsatt ikke godkjent av administrator. Vennligst prøv igjen senere.',
 	'app_there_were_problems_with_input' => 'De oppsto problemer med inn-data',
 	'app_whoops' => 'Oups!',
-	'global_title' => 'Работа тел 1',
+	'global_title' => 'Работа Админ резерв clone',
 ];
